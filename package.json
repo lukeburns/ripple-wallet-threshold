@@ -1,0 +1,18 @@
+{
+  "name": "ripple-wallet-threshold",
+  "version": "1.0.0",
+  "description": "A threshold wallet for Ripple",
+  "main": "threshold.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Luke Burns <lukemburns@gmail.com> (http://lukeburns.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "ripple-lib": "^0.12.4",
+    "ripple-wallet-generator": "^1.0.3"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
